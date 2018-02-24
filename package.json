@@ -1,0 +1,18 @@
+{
+  "name": "webdriverio-test-standalone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "npm run test-local && npm run test-cloud"
+  },
+  "author": "Ivo Tijan",
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^4.10.2"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.12"
+  }
+}
