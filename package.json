@@ -5,14 +5,16 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "npm run test-local && npm run test-cloud"
+    "test": "node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "Ivo Tijan",
   "license": "MIT",
   "dependencies": {
+    "path": "^0.12.7",
     "webdriverio": "^4.10.2"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "wdio-mocha-framework": "^0.5.12"
   }
 }
