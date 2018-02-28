@@ -1,7 +1,7 @@
 {
-  "name": "webdriverio-test-standalone",
+  "name": "mh-marketplace-with-wdio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application goes through all items on MouseHunt Marketplace with an aim to parse current and historical sales prices.",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
   "author": "Ivo Tijan",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^5.0.1",
+    "got": "^8.2.0",
     "path": "^0.12.7",
     "webdriverio": "^4.10.2"
   },

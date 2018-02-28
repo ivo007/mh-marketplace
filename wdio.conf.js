@@ -80,7 +80,7 @@ exports.config = {
     baseUrl: 'https://www.mousehuntgame.com',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 100000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
